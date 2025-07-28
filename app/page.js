@@ -1,3 +1,4 @@
+import AboutNextBlog from "./components/About/About";
 import HeroSlider from "./components/Hero/Hero";
 import LatestPosts from "./components/LatestPosts/LatestPosts";
 import PopularBlogs from "./components/PopularBlogs/PopularBlogs";
@@ -9,6 +10,7 @@ export default function Home() {
     <div className="pt-20">
       <HeroSlider />
       <StatsSection />
+      <AboutNextBlog />
       <LatestPosts />
       <PopularCategories />
       <PopularBlogs />

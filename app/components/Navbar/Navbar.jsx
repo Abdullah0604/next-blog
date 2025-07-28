@@ -1,3 +1,4 @@
+import Image from "next/image";
 import Link from "next/link";
 
 function Navbar() {
@@ -58,9 +59,17 @@ function Navbar() {
               {links}
             </ul>
           </div>
-          <a className=" font-bold px-2 lg:px-0 text-xl">
-            Next<span>Blog</span>
-          </a>
+          <div className="flex items-center gap-2">
+            <Image
+              src="/favicon.png"
+              width={35}
+              height={20}
+              alt="next blog logo"
+            />
+            <a className=" font-bold px-2 lg:px-0 text-xl">
+              Next<span>Blog</span>
+            </a>
+          </div>
         </div>
         <div className="navbar-center hidden lg:flex">
           <ul className="menu menu-horizontal  px-1">{links}</ul>
