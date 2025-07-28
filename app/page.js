@@ -1,5 +1,6 @@
 import HeroSlider from "./components/Hero/Hero";
 import LatestPosts from "./components/LatestPosts/LatestPosts";
+import PopularBlogs from "./components/PopularBlogs/PopularBlogs";
 import PopularCategories from "./components/PopularCategories/PopularCategories";
 import StatsSection from "./components/StatsSection/StatsSection";
 
@@ -10,6 +11,7 @@ export default function Home() {
       <StatsSection />
       <LatestPosts />
       <PopularCategories />
+      <PopularBlogs />
     </div>
   );
 }
