@@ -4,7 +4,7 @@ import Post from "./Post";
 export default function LatestPosts() {
   return (
     <section className="py-12 bg-gray-50">
-      <div className="max-w-6xl mx-auto px-4">
+      <div className="max-w-[1300px] mx-auto px-4 md:px-6 lg:px-8 xl:px-10">
         <h2 className="text-3xl font-bold text-center mb-8">
           Latest Blog Posts
         </h2>

@@ -34,7 +34,7 @@ function Post({ post }) {
               alt={post.authorName}
               width={50}
               height={50}
-              className="rounded-full "
+              className="rounded-full"
             />
             <div>
               <p className="text-sm font-medium">{post.authorName}</p>

@@ -1,5 +1,6 @@
 import HeroSlider from "./components/Hero/Hero";
 import LatestPosts from "./components/LatestPosts/LatestPosts";
+import PopularCategories from "./components/PopularCategories/PopularCategories";
 import StatsSection from "./components/StatsSection/StatsSection";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <HeroSlider />
       <StatsSection />
       <LatestPosts />
+      <PopularCategories />
     </div>
   );
 }
