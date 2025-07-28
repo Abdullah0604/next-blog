@@ -29,7 +29,7 @@ function Navbar() {
   return (
     <div className="border-b-2 border-b-gray-200 bg-white  fixed w-full z-50">
       <div className="navbar p-0 max-w-[1300px] mx-auto px-4 md:px-6 lg:px-8 xl:px-10">
-        <div className="navbar-start">
+        <div className="navbar-start gap-2">
           <div className="dropdown">
             <div
               tabIndex={0}
@@ -59,7 +59,7 @@ function Navbar() {
               {links}
             </ul>
           </div>
-          <div className="flex items-center gap-2">
+          <div className="flex items-center gap-1">
             <Image
               src="/favicon.png"
               width={35}
@@ -67,7 +67,7 @@ function Navbar() {
               alt="next blog logo"
             />
             <a className=" font-bold px-2 lg:px-0 text-xl">
-              Next<span>Blog</span>
+              Next<span className="text-orange-500">Blog</span>
             </a>
           </div>
         </div>
